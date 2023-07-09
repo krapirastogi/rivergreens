@@ -1,0 +1,55 @@
+.readmoreBox{
+  background-color: #F7F8F8;
+  width: 85%;
+  height: auto;
+  margin: 50px auto 25px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+.readmoreBox h2{
+  font-size: 35px;
+  font-weight: 500;
+  margin: 10px auto 25px;
+  font-family: "karla" !important;
+}
+.readmoreBox p{
+  font-size: 16px;
+  font-family: "karla" !important;
+}
+.readmoreBox button{
+  border: none;
+  background: none;
+  font-size: 14px;
+  margin-top: 50px;
+  font-family: "karla" !important;
+}
+/* Property Read More */
+.readmoreBox p span{
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+.dwnldBtn{
+  background-color: #000 !important;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+  .readmoreBox{
+      width: 90%;
+      margin: 25px auto 25px;
+      padding: 10px;
+  }
+  .readmoreBox h2{
+      font-size: 25px;
+  }
+  .readmoreBox p{
+      font-size: 14px;
+  }
+  .readmoreBox button{
+      margin-top: 10px;
+  }
+}

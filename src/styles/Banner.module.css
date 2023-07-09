@@ -1,0 +1,190 @@
+.bannerBox{
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.bannerTextBox{
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 28%;
+  left: 10%;
+}
+.heading{
+  font-size: 44px;
+  font-weight: 600;
+  font-family: "karla" !important;
+}
+.headingText{
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+  font-family: "karla" !important;
+}
+.searchBox{
+  width: 80%;
+  height: 68px;
+  margin: auto;
+  border-radius: 100px;
+  background-color: #fff;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchBox input::placeholder{
+  color: #949494;
+  font-size: 14px;
+}
+.firstInnerBox{
+  width: 65%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 13px 0px;
+  border: none;
+}
+.firstInnerBox input{
+  width: 90%;
+  border: none;
+  font-family: "karla" !important;
+}
+.firstInnerBox input:focus{
+  outline: none;
+}
+.secondInnerBox{
+  width: 15%;
+  padding: 10px 0px;
+  border: none;
+}
+.searchBtn{
+  background-color: #101518;
+  border-radius: 100px !important;
+  color: #fff;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 5px;
+  font-family: "karla" !important;
+}
+.cnlBtn{
+  display: none;
+}
+.propertyBox{
+  width: 30%;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+.propertyHeading{
+  font-size: 22px;
+  color: #fff;
+  font-family: "karla" !important;
+}
+.itemText{
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.itemText p{
+  font-family: "karla" !important;
+}
+
+/* Property Banner */
+.propertyBannerTextBox{
+  width: 80%;
+  height: auto;
+  color: #fff;
+  position: absolute;
+  top: 28%;
+  left: 8%;
+}
+.type{
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-family: "karla" !important;
+}
+.propertyBannerTextBox h1{
+  width: 50%;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: "karla" !important;
+}
+.propertyLocation{
+  width: 25%;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "karla" !important;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 740px){
+  .bannerBox{
+      height: 500px;
+  }
+  .bannerTextBox{
+      width: 90%;
+      left: 5%;
+      text-align: left;
+  }
+  .heading{
+      font-size: 35px;
+  }
+  .headingText{
+      width: 100%;
+      font-size: 14px;
+  }
+  .searchBox{
+      width: 100%;
+      height: 50px;
+      margin-top: 20px;
+  }
+  .searchBtn{
+      display: none;
+  }
+  .cnlBtn{
+      display: flex;
+      border: none;
+      background: none;
+  }
+  .propertyBox{
+      width: 90%;
+      text-align: left;
+      top: 80%;
+      left: 5%;
+  }
+  .itemText{
+      font-size: 14px;
+      margin-top: 10px;
+  }
+  /* property banner */
+  .type{
+      font-size: 12px;
+  }
+  .propertyBannerTextBox h1{
+      width: 90%;
+      font-size: 25px;
+  }
+  .propertyLocation{
+      width: 90%;
+      font-size: 14px;
+  }
+}

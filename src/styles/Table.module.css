@@ -1,0 +1,58 @@
+.tableBox{
+  width: 85%;
+  height: auto;
+  margin: auto;
+  margin-top: 25px;
+}
+.tableBox h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "karla" !important;
+}
+.innerTableBox{
+  margin-top: 25px;
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.innerBoxB, .innerBoxH{
+  width: 25%;
+}
+.innerBoxH p{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "karla" !important;
+}
+.innerBoxB p{
+  font-size: 13px;
+  font-family: "karla" !important;
+}
+.innerBoxB p:nth-child(1), .innerBoxH p:nth-child(1), .innerBoxB p:nth-child(3), .innerBoxH p:nth-child(3){
+  background-color: #F7F8F8;
+}
+.innerBoxB p, .innerBoxH p{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin: 0px;
+  border-right: 1px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7;
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+  .tableBox{
+      width: 90%;
+  }
+  .tableBox h2{
+      font-size: 25px;
+  }
+  .innerBoxH p{
+      font-size: 12px;
+  }
+  .innerBoxB p{
+      font-size: 10px;
+  }
+}

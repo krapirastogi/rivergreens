@@ -1,0 +1,18 @@
+.navBox{
+  width: 85%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+.navBox p{
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  color: #A4A4A4;
+  font-family: "karla" !important;
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+  .navBox{
+      width: 90%;
+  }
+}

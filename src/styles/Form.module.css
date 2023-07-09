@@ -1,0 +1,99 @@
+.formSection {
+  width: 85%;
+  height: auto;
+  margin: 25px auto 0px;
+}
+.formSection h2 {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "karla" !important;
+}
+.formBox {
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.innerBox {
+  width: 48%;
+  height: auto;
+}
+.innerBox form {
+  padding: 15px;
+}
+.innerBox:nth-child(1) {
+  background-color: #f7f8f8;
+  border-radius: 20px;
+}
+.inputBox {
+  margin: 10px 0px;
+}
+.inputBox,
+.inputBox input,
+.textarea {
+  width: 100%;
+}
+.inputBox input,
+.textarea {
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.inputBox input::placeholder,
+.textarea::placeholder {
+  font-size: 12px;
+  font-family: "karla" !important;
+}
+.inputBox p {
+  margin: 0px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-family: "karla" !important;
+}
+.inputBox input,
+.textarea {
+  border: none;
+}
+.btnBox {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 20px;
+}
+.btnBox button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-family: "karla" !important;
+}
+.innerBox:nth-child(2) h3 {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "karla" !important;
+}
+.innerBox:nth-child(2) p {
+  color: #6b6b6b;
+  font-size: 16px;
+  margin-top: 15px;
+  font-family: "karla" !important;
+}
+@media only screen and (min-width: 360px) and (max-width: 740px) {
+  .formSection {
+    width: 90%;
+  }
+  .formSection h2 {
+    font-size: 25px;
+  }
+  .innerBox {
+    width: 100%;
+  }
+  .innerBox:nth-child(2) {
+    display: none;
+  }
+}

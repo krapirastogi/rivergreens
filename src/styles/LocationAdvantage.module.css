@@ -1,0 +1,58 @@
+.locationAdvantage{
+  background-color: #F7F8F8;
+  width: 85%;
+  height: auto;
+  margin: 50px auto 25px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+.locationAdvantage h2{
+  font-size: 35px;
+  text-align: center;
+  font-weight: 500;
+  margin: 10px auto 25px;
+  font-family: "karla" !important;
+}
+.gridContainer{
+  width: 60%;
+  height: auto;
+  margin: 20px auto 0px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.innerBox{
+  width: 25%;
+  height: 170px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  /* border:1px solid black; */
+  margin: 15px;
+}
+icon{
+  font-size: 30px;
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+  .locationAdvantage > h2{
+      font-size: 25px;
+  }
+  .gridContainer{
+      width: 90%;
+  }
+  .innerBox{
+      width: 31%;
+      height: 100px;
+  }
+
+ 
+  .icon{
+      font-size: 20px;
+  }
+  
+}

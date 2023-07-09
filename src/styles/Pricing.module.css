@@ -1,0 +1,29 @@
+.pricingBox{
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+.pricingBox h2{
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  margin: 25px auto 15px;
+  font-family: "karla" !important;
+}
+.table thead tr th{
+  font-size: 16px;
+  font-family: "karla" !important;
+}
+.table tbody tr td{
+  font-size: 14px;
+  font-family: "karla" !important;
+}
+@media only screen and (min-width: 360px) and (max-width: 740px){
+  .pricingBox{
+      width: 90%;
+  }
+  .pricingBox h2{
+      font-size: 25px;
+      margin: 25px auto 10px;
+  }
+}
